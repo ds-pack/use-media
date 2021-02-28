@@ -1,10 +1,10 @@
 {
-  "name": "template-project",
-  "version": "0.0.0",
+  "name": "@ds-pack/use-media",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "source": "src/index.tsx",
   "types": "dist/index.d.ts",
-  "repository": "git@github.com:hamlim/template-project.git",
+  "repository": "git@github.com:ds-pack/use-media.git",
   "author": "Matt Hamlin <matthewjameshamlin@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -29,6 +29,7 @@
     "@testing-library/jest-dom": "^5.7.0",
     "@testing-library/react": "^11.2.2",
     "@types/jest": "^26.0.19",
+    "@types/react": "^17.0.2",
     "babel-jest": "^26.0.1",
     "babel-plugin-styled-components": "^1.10.7",
     "jest": "^26.0.1",
