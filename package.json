@@ -8,12 +8,11 @@
   "author": "Matt Hamlin <matthewjameshamlin@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "prebuild": "rm -rf dist/",
-    "build": "babel src/ --out-dir dist/ --extensions '.ts,.tsx' && tsc",
+    "build": "rm -rf dist/ && babel src/ --out-dir dist/ --extensions '.ts,.tsx' && tsc",
     "test": "jest",
     "test-watch": "jest --watch",
     "test-cov": "jest --collectCoverage",
-    "prepub": "yarn build",
+    "prepub": "yarn build && tsc",
     "pub": "yarn prepub && yarn publish --access public",
     "tsc": "tsc --noEmit"
   },
